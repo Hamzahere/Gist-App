@@ -38,10 +38,10 @@ export const Cards = (gistData) => {
     <div className="site-card-wrapper">
       <Card
         title={unidata.description || "No Description"}
-        bordered={false}
+        bordered={true}
         extra={
           <Button type="primary" onClick={() => moreOpen(`/${unidata.id}`)}>
-            More
+            View Forks
           </Button>
         }
       >
@@ -52,7 +52,7 @@ export const Cards = (gistData) => {
         <div>
           {fileArr.map((language, index) => {
             return (
-              <Tag color="geekblue" key={index}>
+              <Tag color="magenta" key={index}>
                 {language}
               </Tag>
             );

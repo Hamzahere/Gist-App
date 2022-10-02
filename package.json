@@ -1,5 +1,5 @@
 {
-  "name": "gist-demo",
+  "name": "gist-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,8 +13,8 @@
     "web-vitals": "^1.1.2"
   },
   "devDependencies": {
-  "tar": ">=6.1.9"
-}
+    "tar": ">=6.1.9"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

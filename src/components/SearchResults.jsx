@@ -9,10 +9,10 @@ export const SearchResults = (data, username) => {
       {username !== null && userdata.length !== 0 ? (
         <>
           <Alert
-            message={`${data.username}'s Gists`}
-            description={`${userdata.length} Gists found`}
+            // message={`${data.username}'s Gists`}
+            description={`Total ${userdata.length} Gists found for ${data.username}`}
             type="success"
-            showIcon
+            
             style={{ marginTop: 10, marginBottom: 10 }}
           />
           <ul className="paddingData">

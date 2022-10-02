@@ -6,7 +6,7 @@ import { Divider } from "antd";
 const Main = () => (
   <>
     <TitleDesc />
-    <Divider orientation="left">Search by User</Divider>
+    <Divider orientation="left">Search by User Name</Divider>
     <SearchBar />
   </>
 );
